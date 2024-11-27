@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+
+li{
+    list-style: none;
+}
+h1{
+    color: white;
+}
+.side-bar{
+ position: fixed;  
+ background: #47143a;
+  width: 20vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.side-bar .logo-name{
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.side-bar li{
+    font-size: 24px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+.side-bar li:hover{
+    background: white;
+    color: #47143a;
+}
+.container{
+  position: absolute;
+  right: 0;
+  width: 80vw;
+    
+}
